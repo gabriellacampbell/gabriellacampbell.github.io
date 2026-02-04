@@ -13,6 +13,18 @@ body {
     text-align: center;
     color: purple;
 }
+.projects {
+    background: #00b3d1;
+}
 
+.left {
+    text-align: left;
+}
+.green {
+    color: teal;
+}
+.attention {
+    font-weight: bold;
+}
 
 
