@@ -4,7 +4,7 @@ p {
 }
 body {
 	background: plum;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
 }
 #header{
     color: navy;
@@ -26,5 +26,6 @@ body {
 .attention {
     font-weight: bold;
 }
+
 
 
