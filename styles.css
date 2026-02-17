@@ -4,7 +4,7 @@ p {
 }
 body {
 	background: plum;
-	font-family: 'Georgia', 'Times New Roman', 'Helvetica';
+	font-family: Georgia, Helvetica, sans-serif;
 }
 #header{
     color: navy;
