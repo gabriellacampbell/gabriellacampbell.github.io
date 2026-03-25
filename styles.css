@@ -22,7 +22,7 @@ h2 {
     text-align: center;
     font-style: italic;
     color: rgb(54, 50, 176);
-
+}
 
 .projects{
     display:flex;
@@ -38,7 +38,7 @@ h2 {
 }
 
 .project img{
-    width: 450px;
+    width: 400px;
     height: 300px;
     margin: 10px;
     border: 2px solid rgb(126, 14, 201);
@@ -63,7 +63,7 @@ a{
     text-align: center;
     margin: 15px;
 }
-}
+
 /* About Section Styling */
 
 .about{
@@ -80,6 +80,7 @@ a{
     text-align: left;
     margin: 40px;
     line-height: 125%;
+     color: rgb(54, 50, 176);
 }
 
 /* Skills Section Styling */
