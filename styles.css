@@ -22,7 +22,7 @@ h2 {
     text-align: center;
     font-style: italic;
     color: rgb(54, 50, 176);
-}
+
 
 .projects{
     display:flex;
@@ -31,8 +31,8 @@ h2 {
 
 .project{
     width: 80%;
-    margin: 20px;
-    padding: 30px 20px;
+    margin: auto;
+    padding: 20px 20px;
     background:#a4abf8;
     border-radius: 7%;
 }
@@ -63,7 +63,7 @@ a{
     text-align: center;
     margin: 15px;
 }
-
+}
 /* About Section Styling */
 
 .about{
@@ -78,7 +78,7 @@ a{
 .about p {
     width:50%;
     text-align: left;
-    margin: auto;
+    margin: 40px;
     line-height: 125%;
 }
 
