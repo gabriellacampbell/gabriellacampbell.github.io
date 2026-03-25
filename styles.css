@@ -27,8 +27,9 @@ h3 {
     display:flex;
     flex-wrap:wrap;
 }
+/*affinity diagram section*/
 .project{
-    width:50%;
+    width: 100%;
     margin: 20px;
     padding: 40px 20px;
     background:#a4abf8;
