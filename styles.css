@@ -73,10 +73,12 @@ a{
 }
 
 .about img {
-    width: 150px;
-    height: 200px;
-    border-radius: 25%;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
     border: 2px solid rgb(126, 14, 201);
+    display: block;
+    margin: auto;
 }
 
 .about p {
