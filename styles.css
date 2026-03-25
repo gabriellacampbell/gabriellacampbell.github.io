@@ -8,11 +8,11 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(6, 4, 57);
+    color: rgb(54, 50, 176);
 }
 
 h1:hover{
-    color: rgb(6, 4, 57);
+    color: rgb(54, 50, 176);
     text-decoration: overline underline;
     text-underline-offset: 5px;
 }
@@ -92,18 +92,22 @@ a{
 /* Skills Section Styling */
 .skills {
     margin: 40px;
+    color: rgb(54, 50, 176);
+    text-align: left;
 }
 
 /* Contact Section Styling */
 .contact{
     display:flex;
     flex-wrap:wrap;
-    justify-content: center;
+    justify-content: left;
+    color: rgb(54, 50, 176);
 }
 
 .contact a {
     margin-left: 50px;
     margin-right: 50px;
+    color: rgb(54, 50, 176);
 }
 
 .contact a:hover {
