@@ -89,7 +89,13 @@ a{
     color: rgb(54, 50, 176);
     text-align: left;
 }
-
+.skills p {
+    width:50%;
+    text-align: left;
+    margin: 40px;
+    line-height: 125%;
+     color: rgb(54, 50, 176);
+}
 /* Contact Section Styling */
 .contact{
     display:flex;
