@@ -1,0 +1,33 @@
+/* Structural */ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/thunder.jpg) no-repeat center center fixed;
+    backgroyund-size: cover;
+}
+#content {
+    background-color: rgb(255, 216, 216, 0.6);
+    width: 80%;
+    margin:auto; /* centers the content */
+    padding: 2%;
+    border-radius: 0%;
+    border: 2px solid #4d4c8e;
+
+}
+header, main, footer {
+    padding: 1%;
+}
+header,footer{
+    background-color: rgb(242, 243, 191, 0.4);
+    color: rgb(77, 76, 142);
+}
+/* Navigation */
+
+/* Typography */
+h1{
+    color: #4d4c8e;
+    size: 25px;
+}
+/*
+div is a block level element, so it will take up the entire width of the page.
+margin is used to create space around elements, outside of any defined borders.
+*/
