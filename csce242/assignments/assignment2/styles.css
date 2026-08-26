@@ -2,8 +2,6 @@
 body {
     font-family: Georgia, Helvetica, sans-serif;
     background-image: url(images/stripes.jpg);
-    background-size: cover;
-    color: #000000;
 }
 #content {
     background-color: rgb(104, 3, 3, 0.4);
@@ -22,4 +20,9 @@ h1{
 h2{
     color: #680303;
     size: 20px;
+}
+/* images */
+img {
+    width: 40%;
+    padding: 5px;
 }
