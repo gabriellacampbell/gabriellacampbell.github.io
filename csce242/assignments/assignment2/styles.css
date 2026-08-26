@@ -19,7 +19,7 @@ h1{
     text-align: center;
 }
 h2{
-    color: #680303;
+    color: #000000;
     size: 20px;
     text-align: center;
 }
@@ -31,4 +31,14 @@ p{
 img {
     width: 40%;
     padding: 5px;
+}
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #680303;
+    padding: 10px;
+    text-align: center;
 }

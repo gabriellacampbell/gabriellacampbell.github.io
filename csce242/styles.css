@@ -1,0 +1,29 @@
+/* Structural */ 
+body {
+    font-family: Georgia, Helvetica, sans-serif;
+    background-color: #e9aeae;
+}
+#content {
+    background-color: rgba(138, 185, 107, 0.772);
+    width: 80%;
+    margin:auto;
+    padding: 2%;
+    border-radius: 0%;
+    border: 2px solid #c9a7a7;
+}
+/* Typography */
+h1{
+    color: #ae5454;
+    size: 25px;
+    text-align: center;
+}
+h2{
+    color: #ae5454;
+    size: 20px;
+    text-align: center;
+}
+footer{
+    color: #ae5454;
+    size: 15px;
+    text-align: center;
+}
