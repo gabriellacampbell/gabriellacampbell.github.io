@@ -4,7 +4,7 @@ body {
     background-image: url(images/stripes.jpg);
 }
 #content {
-    background-color: rgb(104, 3, 3, 0.4);
+    background-color: rgba(112, 11, 11, 0.753);
     width: 80%;
     margin:auto;
     padding: 2%;
@@ -16,10 +16,16 @@ body {
 h1{
     color: #000000;
     size: 25px;
+    text-align: center;
 }
 h2{
     color: #680303;
     size: 20px;
+    text-align: center;
+}
+p{
+    color: #ffffff;
+    size: 15px;
 }
 /* images */
 img {
