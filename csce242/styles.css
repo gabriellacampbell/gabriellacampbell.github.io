@@ -4,7 +4,7 @@ body {
     background-color: #e9aeae;
 }
 #content {
-    background-color: rgba(138, 185, 107, 0.772);
+    background-color: rgba(172, 231, 133, 0.5);
     width: 80%;
     margin:auto;
     padding: 2%;
@@ -14,13 +14,22 @@ body {
 /* Typography */
 h1{
     color: #ae5454;
-    size: 25px;
+    size: 30px;
     text-align: center;
 }
 h2{
     color: #ae5454;
-    size: 20px;
+    size: 17px;
     text-align: center;
+}
+h3{
+    color: #f8f4f4;
+    size: 20px;
+    text-align: left;
+}
+p{
+    color: #f8f4f4;
+    size: 15px;
 }
 footer{
     color: #ae5454;
