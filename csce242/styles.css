@@ -13,12 +13,12 @@ body {
 }
 /* Typography */
 h1{
-    color: #ae5454;
+    color: #c9a7a7;
     size: 30px;
     text-align: center;
 }
 h2{
-    color: #ae5454;
+    color: #c9a7a7;
     size: 17px;
     text-align: center;
 }
@@ -32,7 +32,11 @@ p{
     size: 15px;
 }
 footer{
-    color: #ae5454;
+    color: #c9a7a7;
     size: 15px;
     text-align: center;
+}
+u1{
+    color: #c9a7a7;
+    size: 15px;
 }

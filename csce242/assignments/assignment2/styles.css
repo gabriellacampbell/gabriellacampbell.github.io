@@ -36,9 +36,14 @@ img {
 table {
     width: 100%;
     border-collapse: collapse;
+    padding: 5px;
 }
 th, td {
     border: 1px solid #680303;
     padding: 10px;
     text-align: center;
+}
+th{
+    background-color: #680303;
+    color: #ffffff;
 }
