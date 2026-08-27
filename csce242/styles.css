@@ -14,17 +14,17 @@ body {
 /* Typography */
 h1{
     color: #c9a7a7;
-    size: 30px;
+    font-size: 30px;
     text-align: center;
 }
 h2{
     color: #c9a7a7;
-    size: 17px;
+    font-size: 17px;
     text-align: center;
 }
 h3{
     color: #f8f4f4;
-    size: 20px;
+    font-size: 20px;
     text-align: left;
 }
 p{
@@ -38,9 +38,13 @@ footer{
 }
 ul{
     color: #c9a7a7;
-    size: 15px;
+    font-size: 15px;
 }
 a{
     color: #c9a7a7;
-    size: 15px;
+    font-size: 15px;
+}
+a:visited{
+    color: #c9a7a7;
+    font-size: 15px;
 }
