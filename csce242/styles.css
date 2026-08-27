@@ -36,7 +36,11 @@ footer{
     size: 15px;
     text-align: center;
 }
-u1{
+ul{
+    color: #c9a7a7;
+    size: 15px;
+}
+a{
     color: #c9a7a7;
     size: 15px;
 }
