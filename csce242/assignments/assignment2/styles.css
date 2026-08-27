@@ -31,6 +31,7 @@ p{
 img {
     width: 40%;
     padding: 5px;
+    margin: auto;
 }
 /* table */
 table {
@@ -38,12 +39,17 @@ table {
     border-collapse: collapse;
     padding: 5px;
 }
+
 th, td {
     border: 1px solid #680303;
     padding: 10px;
     text-align: center;
 }
 th{
-    background-color: #680303;
-    color: #ffffff;
+    background-color: #c6c6c6a3;
+    color: #000000;
+}
+td{
+    background-color: #f7f3f3cc;
+    color: #000000;
 }
