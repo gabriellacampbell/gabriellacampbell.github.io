@@ -36,6 +36,7 @@ footer{
     size: 15px;
     text-align: center;
 }
+/* links */
 ul{
     color: #c9a7a7;
     font-size: 15px;
@@ -43,8 +44,10 @@ ul{
 a{
     color: #c9a7a7;
     font-size: 15px;
+    text-decoration: none;
 }
 a:visited{
     color: #c9a7a7;
     font-size: 15px;
+    text-decoration: none;
 }
