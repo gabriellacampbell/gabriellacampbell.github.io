@@ -11,6 +11,10 @@ body{
 #main-header{
     background-color: #F2F0D5;
 }
+#sidebar{
+    padding:5px;
+    background-color: #E8B4B4;
+}
 /* Typography */
 #main-header h1 {
     text-align: center;
@@ -19,4 +23,23 @@ body{
 h1{
     color: #5D878C;
 }
-
+h2{
+    color: #5D878C;
+    text-align: center;
+}
+/* Navigation */
+#main-nav ul, #quick-links{
+    list-style-type: none;
+    padding-left:0;
+}
+#main-nav li{
+    background-color: #D98282;
+    padding:5px;
+    border-bottom: 1px solid #5D878C;
+}
+#main-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-align:center;
+}
