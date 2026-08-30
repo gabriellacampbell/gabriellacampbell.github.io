@@ -1,24 +1,26 @@
 /* structure */
 body{
     font-family:'Times New Roman', Times, serif;
-    background-color: #F1F2E9;
+    background-color: #b3cdda;
     border: 1px solid #5D878C;
+    border: wrap;
 }
 #content{
     width:80%;
     margin:auto;
 }
 #main-header{
-    background-color: #F2F0D5;
+    background-color: #0e0432;
 }
 #sidebar{
     padding:5px;
-    background-color: #E8B4B4;
+    background-color: #cfabeb;
 }
 footer{
-    background-color: #D98282;
+    background-color: #cfabeb;
     padding: 10px;
 }
+
 /* Typography */
 #main-header h1 {
     text-align: center;
@@ -43,12 +45,41 @@ p{
 }
 #main-nav li{
     background-color: #D98282;
-    padding:5px;
+    padding:7px;
     border-bottom: 1px solid #5D878C;
 }
 #main-nav a{
     color: white;
     text-decoration: none;
-    font-size: 15px;
-    text-align:center;
+}
+ /*pics*/
+ img{
+    width: 100%;
+ }
+ /*flex*/
+ @media (min-width: 1000px) {
+    .columns {
+        display:flex;
+    }
+
+    #main-nav li {
+        flex:1;
+        border:0;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .two {
+        flex:2;
+    }
+
+    .three {
+        flex:3;
+    }
+
+    .four {
+        flex:4
+    }
 }
