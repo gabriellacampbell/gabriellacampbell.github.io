@@ -1,0 +1,18 @@
+/* structure */
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #F1F2E9;
+}
+#content{
+    width:80%;
+    margin:auto;
+}
+#main-header{
+    background-color: #F2F0D5;
+}
+/* Typography */
+#main-header h1 {
+    text-align: center;
+    padding-top:10px;
+}
+
