@@ -15,6 +15,10 @@ body{
     padding:5px;
     background-color: #E8B4B4;
 }
+footer{
+    background-color: #D98282;
+    padding: 10px;
+}
 /* Typography */
 #main-header h1 {
     text-align: center;
@@ -26,6 +30,11 @@ h1{
 h2{
     color: #5D878C;
     text-align: center;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
 }
 /* Navigation */
 #main-nav ul, #quick-links{
