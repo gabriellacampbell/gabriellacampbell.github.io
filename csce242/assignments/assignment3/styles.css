@@ -2,6 +2,7 @@
 body{
     font-family:'Times New Roman', Times, serif;
     background-color: #F1F2E9;
+    border: 1px solid #5D878C;
 }
 #content{
     width:80%;
@@ -14,5 +15,8 @@ body{
 #main-header h1 {
     text-align: center;
     padding-top:10px;
+}
+h1{
+    color: #5D878C;
 }
 
