@@ -38,6 +38,23 @@ p{
     color: #D5F2E8;
     font-size: 15px;
 }
+ul{
+    text-align: left;
+    color: #D5F2E8;
+    font-size: 15px;
+}
+.article{
+    text-align: center;
+    color: #D5F2E8;
+    font-size: 15px;
+    background-color:#ffbff8;
+}
+.section{
+    text-align: center;
+    color: #D5F2E8;
+    font-size: 15px;
+    background-color:#ffbff8;
+}
 /* Navigation */
 #main-nav ul, #quick-links{
     list-style-type: none;
