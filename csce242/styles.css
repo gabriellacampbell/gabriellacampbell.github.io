@@ -4,7 +4,7 @@ body {
     background-color: #e9aeae;
 }
 #content {
-    background-color: rgba(172, 231, 133, 0.5);
+    background-color: rgb(191, 182, 138,);
     width: 80%;
     margin:auto;
     padding: 2%;
@@ -13,12 +13,12 @@ body {
 }
 /* Typography */
 h1{
-    color: #c9a7a7;
+    color: #A65D6A;
     font-size: 30px;
     text-align: center;
 }
 h2{
-    color: #c9a7a7;
+    color: #A65D6A;
     font-size: 17px;
     text-align: center;
 }
