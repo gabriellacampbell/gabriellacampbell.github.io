@@ -22,8 +22,7 @@ body {
     background-color: #7B8C56;
     border-radius: 4px;
     padding: 10px;
-    width: 28%;
-    box-sizing: border-box;
+    flex:1;
 }
 .assignment img:hover{
     border: 5px solid white;
@@ -79,10 +78,8 @@ footer{
 }
 
 /* 600 px or larger */
-@media (max-width: 600px) {
-    .assignment {
-        width: 70%;
-        margin: 0 auto;
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
     }
-
 }
