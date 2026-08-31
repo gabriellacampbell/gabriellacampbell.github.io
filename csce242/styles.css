@@ -8,7 +8,6 @@ body {
     width: 80%;
     margin:auto;
     padding: 2%;
-    border-radius: 0%;
     border: 2px solid #c9a7a7;
 }
 /* Typography */
@@ -36,7 +35,7 @@ footer{
     size: 15px;
     text-align: center;
 }
-/* links */
+/* links 
 ul{
     color: #c9a7a7;
     font-size: 15px;
@@ -50,7 +49,7 @@ a:visited{
     color: #c9a7a7;
     font-size: 15px;
     text-decoration: none;
-}
+}*/
 /*assignment Styling*/
 h3 {
     text-align: center;
@@ -67,18 +66,16 @@ h3 {
 .assignment{
     width: 30%;
     margin: 10px;
-    padding: 15px 10px;
+    padding: 10px;
     background: #7B8C56;
-    border-radius: 15px;
+    border-radius: 4px;
 }
 
+
 .assignment img{
-    width: 300px;
+    width: 100%;
     height: 150px;
-    margin: 10px;
-    border: 5px solid #f5cdc7;
-    display: block;
-    margin: auto;
+    object-fit: cover;
 }
 
 .assignment img:hover{
