@@ -19,10 +19,10 @@ body {
 .assignment{
     display:flex;
     flex-direction: column;
-    flex-wrap:wrap;
     background-color: #7B8C56;
     border-radius: 4px;
     padding: 10px;
+    width: 28%;
 }
 .assignment img:hover{
     border: 5px solid white;
@@ -73,7 +73,6 @@ footer{
     width: 100%;
     height: 150px;
     object-fit: cover;
-    margin: 10px auto;
     display: block;
     border: 5px solid #7B8C56;
 }
