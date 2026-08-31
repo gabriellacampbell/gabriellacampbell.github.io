@@ -80,8 +80,9 @@ footer{
 
 /* 600 px or larger */
 @media (max-width: 600px) {
-    .columns {
-        flex-direction: column;
+    .assignment {
+        width: 70%;
+        margin: 0 auto;
     }
 
 }
