@@ -75,12 +75,11 @@ footer{
     object-fit: cover;
     margin: 10px auto;
     display: block;
-    borcer: 5px solid #7B8C56;
+    border: 5px solid #7B8C56;
 }
 
-
 /* 600 px or larger */
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     .columns {
         flex-direction: column;
     }
