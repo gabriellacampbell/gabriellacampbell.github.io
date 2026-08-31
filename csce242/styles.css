@@ -58,17 +58,26 @@ footer{
 
 .assignment{
     display:flex;
+    flex-direction: column;
     flex-wrap:wrap;
     background-color: #7B8C56;
     border-radius: 4px;
     padding: 10px;
+}
+.assignment-row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .assignment img{
     width: 100%;
     height: 150px;
     object-fit: cover;
-    margin: auto;
+    margin: 10px auto;
+    display: block;
+    borcer: 5px solid #7B8C56;
 }
 
 .assignment img:hover{
