@@ -8,7 +8,6 @@ body {
     width: 80%;
     margin:auto;
     padding: 2%;
-    border: 2px solid #c9a7a7;
 }
 /* Typography */
 h1{
@@ -36,45 +35,37 @@ footer{
     size: 15px;
     text-align: center;
 }
-/* links 
-ul{
-    color: #c9a7a7;
-    font-size: 15px;
+.columns {
+    display: flex;
+    gap: 20px;
 }
-a{
-    color: #c9a7a7;
-    font-size: 15px;
-    text-decoration: none;
-}
-a:visited{
-    color: #c9a7a7;
-    font-size: 15px;
-    text-decoration: none;
-}*/
-/*assignment Styling*/
-h3 {
-    text-align: center;
-    font-style: italic;
-    color: #f5cdc7;
-}
+                                                /* links 
+                                                ul{
+                                                    color: #c9a7a7;
+                                                    font-size: 15px;
+                                                }
+                                                a{
+                                                    color: #c9a7a7;
+                                                    font-size: 15px;
+                                                    text-decoration: none;
+                                                }
+                                                a:visited{
+                                                    color: #c9a7a7;
+                                                    font-size: 15px;
+                                                    text-decoration: none;
+                                                }*/
+                                                /*assignment Styling*/
 
 .assignment{
     display:flex;
     flex-wrap:wrap;
     background-color: #7B8C56;
-}
-
-.assignment{
-    width: 23%;
-    margin: auto;
-    padding: 10px;
-    background: #7B8C56;
     border-radius: 4px;
+    padding: 10px;
 }
-
 
 .assignment img{
-    max-width: 100%;
+    width: 100%;
     height: 150px;
     object-fit: cover;
     margin: auto;
@@ -99,18 +90,9 @@ a{
     color: #f5cdc7;
 }
 /* 600 px or larger */
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
     .columns {
-        display:flex;
-    }
-
-    #main-nav li {
-        flex:1;
-        border:0;
-    }
-
-    .one {
-        flex:1;
+        flex-direction: column;
     }
 
 }
