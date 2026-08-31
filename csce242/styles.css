@@ -9,6 +9,34 @@ body {
     margin:auto;
     padding: 2%;
 }
+.columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.assignment{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    background-color: #7B8C56;
+    border-radius: 4px;
+    padding: 10px;
+}
+.assignment img:hover{
+    border: 5px solid white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.assignment a:hover{
+    color: #80856e;
+}
+
 /* Typography */
 h1{
     color: #A65D6A;
@@ -35,42 +63,12 @@ footer{
     size: 15px;
     text-align: center;
 }
-.columns {
-    display: flex;
-    gap: 20px;
+.assignment p {
+    text-align: center;
+    margin: 15px;
+    color: #f5cdc7;
 }
-                                                /* links 
-                                                ul{
-                                                    color: #c9a7a7;
-                                                    font-size: 15px;
-                                                }
-                                                a{
-                                                    color: #c9a7a7;
-                                                    font-size: 15px;
-                                                    text-decoration: none;
-                                                }
-                                                a:visited{
-                                                    color: #c9a7a7;
-                                                    font-size: 15px;
-                                                    text-decoration: none;
-                                                }*/
-                                                /*assignment Styling*/
-
-.assignment{
-    display:flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-    background-color: #7B8C56;
-    border-radius: 4px;
-    padding: 10px;
-}
-.assignment-row{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
+/*images*/
 .assignment img{
     width: 100%;
     height: 150px;
@@ -80,24 +78,7 @@ footer{
     borcer: 5px solid #7B8C56;
 }
 
-.assignment img:hover{
-    border: 5px solid white;
-}
 
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.assignment a:hover{
-    color: #80856e;
-}
-
-.assignment p {
-    text-align: center;
-    margin: 15px;
-    color: #f5cdc7;
-}
 /* 600 px or larger */
 @media (min-width: 600px) {
     .columns {
