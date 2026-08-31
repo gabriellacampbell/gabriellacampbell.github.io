@@ -99,3 +99,30 @@ a{
     margin: 15px;
     color: #f5cdc7;
 }
+/* 600 px or larger */
+@media (min-width: 1000px) {
+    .columns {
+        display:flex;
+    }
+
+    #main-nav li {
+        flex:1;
+        border:0;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .two {
+        flex:2;
+    }
+
+    .three {
+        flex:3;
+    }
+
+    .four {
+        flex:4
+    }
+}
