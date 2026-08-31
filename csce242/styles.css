@@ -22,13 +22,14 @@ h2{
     text-align: center;
 }
 h3{
-    color: #f8f4f4;
+    color: #A65D6A;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
 }
 p{
     color: #f8f4f4;
     size: 15px;
+    text-align: center;
 }
 footer{
     color: #c9a7a7;
@@ -64,8 +65,8 @@ h3 {
 }
 
 .assignment{
-    width: 30%;
-    margin: 10px;
+    width: 23%;
+    margin: auto;
     padding: 10px;
     background: #7B8C56;
     border-radius: 4px;
@@ -73,9 +74,10 @@ h3 {
 
 
 .assignment img{
-    width: 100%;
+    max-width: 100%;
     height: 150px;
     object-fit: cover;
+    margin: auto;
 }
 
 .assignment img:hover{
@@ -111,15 +113,4 @@ a{
         flex:1;
     }
 
-    .two {
-        flex:2;
-    }
-
-    .three {
-        flex:3;
-    }
-
-    .four {
-        flex:4
-    }
 }
