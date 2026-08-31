@@ -20,6 +20,14 @@ footer{
     background-color: #AED9A3;
     padding: 10px;
 }
+.article{
+    padding: 5px;
+   background-color:#ffbff8;
+}
+.section{
+    padding: 5px;
+    background-color:#ffbff8;
+}
 
 /* Typography */
 #main-header h1 {
@@ -47,13 +55,11 @@ ul{
     text-align: center;
     color: #D5F2E8;
     font-size: 15px;
-    background-color:#ffbff8;
 }
 .section{
     text-align: center;
     color: #D5F2E8;
     font-size: 15px;
-    background-color:#ffbff8;
 }
 /* Navigation */
 #main-nav ul, #quick-links{
