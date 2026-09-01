@@ -8,15 +8,44 @@ body {
 #main-header {
     background-color: bisque;
     padding-top: 3%;
+    position: relative;
 }
 
 #logo {
-    margin: 10px;
-    position: relative; /*stopped gap between logo and header */
-    top: 50px;
-    left: 100px;
+     position: absolute; /*stopped gap between logo and header */
+     left: 1em;
+     top: 1em;
 }
 
+/*hero*/
+#hero {
+    position: relative;
+}
+#hero-decription {
+    position: absolute;
+    top:60%;
+    left:5%;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.hero-arrow {
+    position: absolute;
+    top: 28%;
+    font-size: 8em;
+    color: white;
+    text-decoration: none;
+
+}
+
+#hero-right {
+    right:0;
+}
+#hero-left {
+    left:0;
+}
+
+/*sidebar and info */
 #sidebar, #info {
     padding:5px;
 }
