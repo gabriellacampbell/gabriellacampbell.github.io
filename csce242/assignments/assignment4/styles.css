@@ -1,6 +1,8 @@
 /*header*/
 #main-header{
-    background-color: #00000000
+    background-color: #00000000;
+    position: relative;
+    padding-top: 10px;
 }
 
 h1{
@@ -32,4 +34,27 @@ h1{
 
 /*footer copy*/
 
-/*navigation*/
+/* 600 px or larger */
+@media (min-width: 1000px) {
+    #footer-links-title {
+        margin:0;
+    }
+
+    #content {
+        width:80%;
+        margin:auto;
+    }
+
+    .columns {
+        display:flex;
+    }
+
+    #main-nav li {
+        flex:1;
+        border:0;
+    }
+
+    .one {
+        flex:1;
+    }
+}
