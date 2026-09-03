@@ -1,0 +1,35 @@
+/*header*/
+#main-header{
+    background-color: #00000000
+}
+
+h1{
+    font-size: 30px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#logo {
+    position:absolute;
+    left:1em;
+    top:1em;
+}
+
+/*navigation*/
+#main-nav{
+    background-color: #75000A;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+/*footer links*/
+
+/*footer copy*/
+
+/*navigation*/
