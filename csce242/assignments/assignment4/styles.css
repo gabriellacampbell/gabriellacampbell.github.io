@@ -1,6 +1,6 @@
 /*header*/
 #main-header{
-    background-color: #00000000;
+    background-color: black;
     position: relative;
     padding-top: 10px;
 }
@@ -21,7 +21,7 @@ h1{
 /*navigation*/
 #main-nav{
     background-color: #75000A;
-    text-align: center;
+    text-align: right;
     padding: 10px;
 }
 
@@ -29,6 +29,12 @@ h1{
     color: white;
     text-decoration: none;
     padding: 10px;
+}
+
+/*images*/
+#main-header img{
+    width:auto;
+    height: 100px;
 }
 /*footer links*/
 
