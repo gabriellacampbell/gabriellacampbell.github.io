@@ -4,7 +4,10 @@
     position: relative;
     padding-top: 10px;
 }
-
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, sans-serif;
+}
 h1{
     font-size: 30px;
     text-align: right;
@@ -14,10 +17,20 @@ h1{
 
 #logo {
     position:absolute;
-    left:1em;
-    top:1em;
+    left: 30px;;
+    top: 20px;
+    width: 150px;
+    height: 100px;
 }
-
+#content{
+    width: 100%;
+}
+ 
+#main-header{
+    background-color: black;
+    position: relative;
+    padding-top: 25px;
+}
 /*navigation*/
 #main-nav{
     background-color: #75000A;
@@ -25,10 +38,25 @@ h1{
     padding: 10px;
 }
 
+#main-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main-nav li{
+    flex: 1;
+    text-align: center;
+}
+
 #main-nav a{
     color: white;
     text-decoration: none;
     padding: 10px;
+    display: block;
+    text-decoration: none;
 }
 
 /*images*/
@@ -40,6 +68,11 @@ h1{
 img {
     max-width: 100%;
     height: auto;
+}
+#hero img{
+    width: auto;
+    height: auto;
+    display: block;
 }
 /* Footer */
     #footer-links-title {
@@ -59,6 +92,7 @@ img {
         margin:0;
     }
 
+    
     #content {
         width:80%;
         margin:auto;
