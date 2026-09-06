@@ -41,8 +41,16 @@ img {
     max-width: 100%;
     height: auto;
 }
-/*footer links*/
+/* Footer */
+    #footer-links-title {
+        margin:0;
+    }
 
+    #footer-social {
+        position:absolute;
+        top:5px;
+        right:5px;
+    }
 /*footer copy*/
 
 /* 600 px or larger */
