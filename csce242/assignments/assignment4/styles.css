@@ -147,6 +147,7 @@ img {
 }
 .info-section{
     padding: 45px;
+    background-color: #75000A;
 }
 
 .info-section .columns {
@@ -161,11 +162,15 @@ img {
 
 .info-section h2 {
     font-size: 30px;
-    color: #75000A;
+    color: white;
+    font-weight: bold;
 }
 
+.info-section p {
+
+
 .info-section a {
-    color: #75000A;
+    color: white;
     text-decoration: none;
 }
 
