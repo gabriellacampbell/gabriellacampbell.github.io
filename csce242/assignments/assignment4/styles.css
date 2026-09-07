@@ -1,4 +1,15 @@
 /*header*/
+#top-header{
+    background-color: black;
+    padding: 10px;
+}
+
+#top-header a{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
 #main-header{
     background-color: black;
     position: relative;
@@ -14,6 +25,7 @@
     padding: 30px;
     
 }
+
 body{
     margin: 0;
     font-family: 'Arial', Arial, Helvetica, sans-serif, sans-serif;
@@ -51,7 +63,7 @@ h1{
 
 #main-nav li{
     flex: 1;
-    text-align: center;
+    text-align: right;
 }
 
 #main-nav a{
