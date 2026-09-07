@@ -40,7 +40,7 @@ h1{
 #logo {
     position:absolute;
     left: 30px;;
-    top: 20px;
+    top: 50px;
     width: 150px;
     height: 100px;
 }
@@ -167,6 +167,10 @@ img {
 }
 
 .info-section p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 
 .info-section a {
