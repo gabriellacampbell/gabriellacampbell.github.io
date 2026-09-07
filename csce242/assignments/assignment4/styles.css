@@ -47,7 +47,7 @@ h1{
 #content{
     width: 100%;
 }
- 
+
 /*navigation*/
 #main-nav{
     background-color: #75000A;
@@ -138,6 +138,9 @@ img {
 #info{
     width: 80%;
     text-align: center;
+    color: black;
+    background-color: #f5f5f5;
+    font-weight: bold;
     padding: 50px;
     margin: auto;
 
