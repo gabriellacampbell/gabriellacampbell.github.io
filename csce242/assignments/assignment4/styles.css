@@ -2,7 +2,17 @@
 #main-header{
     background-color: black;
     position: relative;
-    padding-top: 10px;
+    padding-top: 25px;
+}
+
+#main-header h1{
+    font-size: 30px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    
 }
 body{
     margin: 0;
@@ -26,15 +36,9 @@ h1{
     width: 100%;
 }
  
-#main-header{
-    background-color: black;
-    position: relative;
-    padding-top: 25px;
-}
 /*navigation*/
 #main-nav{
     background-color: #75000A;
-    text-align: right;
     padding: 10px;
 }
 
@@ -43,7 +47,6 @@ h1{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
 }
 
 #main-nav li{
@@ -53,10 +56,16 @@ h1{
 
 #main-nav a{
     color: white;
-    text-decoration: none;
+
     padding: 10px;
     display: block;
     text-decoration: none;
+}
+
+/*herosection*/
+#hero{
+    width: 100%;
+    height: auto;
 }
 
 /*images*/
@@ -75,24 +84,85 @@ img {
     display: block;
 }
 /* Footer */
+
+ #footer{
+    background-color: #75000A;
+    color: white;
+    padding: 35px;
+    }
+
+#footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
     #footer-links-title {
         margin:0;
     }
 
+  #footer-copy{
+    text-align: center;
+    margin-top: 30px;
+  }  
     #footer-social {
         position:absolute;
         top:5px;
         right:5px;
     }
-/*footer copy*/
 
-/* 600 px or larger */
-@media (min-width: 1000px) {
+/*flex*/
+.columns{
+    display: flex;
+}
+
+.one{
+    flex: 1;
+
+}
+
+
+/*inoformation sections*/
+.info-section{
+    padding: 45px;
+}
+
+.info-section .columns {
+    align-items: center;
+    gap:38px;
+}
+
+.info-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-section h2 {
+    font-size: 30px;
+    color: #75000A;
+}
+
+.info-section a {
+    color: #75000A;
+    text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+    #logo{
+        position: static;
+        display: block;
+        margin: auto;
+    }
+
+    #main-nav ul{
+        flex-direction: column;
+    }
+
     #footer-links-title {
         margin:0;
     }
 
-    
+
     #content {
         width:80%;
         margin:auto;
@@ -104,10 +174,29 @@ img {
 
     #main-nav li {
         flex:1;
-        border:0;
+        border: 1px white solid;
+    }
+
+    .columns{
+        display: block;
+    }
+
+    .info-section .columns {
+        display: block;
     }
 
     .one {
         flex:1;
     }
+
+    .info-section img {
+        margin-bottom: 20px;
+    }
+    .info-section .columns{
+        display: block;
+    }
+    #footer .columns{
+        display: block;
+    }
+
 }
