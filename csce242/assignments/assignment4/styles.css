@@ -37,6 +37,13 @@ h1{
     color: white;
 }
 
+h3{
+    font-size: 30px;
+    text-align: Center;
+    font-family: 'Arial', Arial, Helvetica, sans-serif, monospace;
+    color: black;
+}
+
 #logo {
     position:absolute;
     left: 30px;;
