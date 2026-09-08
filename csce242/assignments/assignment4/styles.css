@@ -40,7 +40,7 @@ h1{
 #logo {
     position:absolute;
     left: 30px;;
-    top: 50px;
+    top: 60px;
     width: 150px;
     height: 100px;
 }
@@ -153,6 +153,7 @@ img {
 .info-section .columns {
     align-items: center;
     gap:38px;
+    background-color: #75000A;
 }
 
 .info-section img {
