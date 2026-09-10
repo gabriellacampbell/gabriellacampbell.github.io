@@ -138,6 +138,35 @@ h1, h2, h3 {
 .columns-mobile {
     display:flex;
 }
+/*styles for js*/
+.cool-link {
+    background: teal;
+    color: magenta;
+}
+
+#ball{
+    width: 50px;
+    height: 50px;
+    background-color: #a64f6c;
+    border-radius: 50%;
+    bottom: 75%;
+}
+
+#bouncing-ball {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+/*bounce animation for the ball*/
+@keyframes bounce {
+    0% {bottom:75% ;background: #a64f6c;}
+    25% {background: orange;}
+    50% {background: blue; bottom: 0%}
+    75% {background: green;}
+    
+}
 
 /* Responsive Design */
 
@@ -161,6 +190,7 @@ h1, h2, h3 {
 
     .project-card {
         margin-bottom:0;
+        min-height: 200px;
     }
     
     /* Navigation */
