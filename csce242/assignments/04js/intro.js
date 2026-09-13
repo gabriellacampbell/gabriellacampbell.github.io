@@ -6,8 +6,8 @@ document.getElementById("btn-show-message").onclick = (e) => {
 
 //styles the link when it is clicked
 document.getElementById("link").onclick = (e) => {
-    e.target.classList.add("cool-link");
     e.preventDefault(); //dont go to link destination
+     e.target.classList.add("cool-link");
 };
 
 //animates the ball when it is clicked
