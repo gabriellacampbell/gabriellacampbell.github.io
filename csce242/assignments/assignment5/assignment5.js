@@ -1,4 +1,7 @@
 //text box
+document.getElementById("speech-container").addEventListener("click", () => {
+    document.getElementById("text-box").classList.toggle("show");
+});
 
 //beverage of choice dropdown menu:
 const beverageSelect = document.getElementById("beverages");
@@ -8,4 +11,7 @@ const beverageOutput = document.getElementById("beverage-output");
     beverageOutput.textContent = selectedBeverage + ": Nice choice!";});
 
 
-//sticker 
+//add sticker when sun is press3d
+document.getElementById("sticker").onclick = () => {
+    document.getElementById("emoji").classList.add("display-sticker");
+}
