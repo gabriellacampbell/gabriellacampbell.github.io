@@ -1,0 +1,40 @@
+/* main */
+:root{
+    --background:#EBF5DF;
+    --headings: #E8871E;
+    --heading2: #EDB458;
+}
+
+body{
+    background-color: white;
+    font-family: Garamond, Arial, sans-serif;
+    padding:0px;
+    margin:0%;
+}
+
+#content{
+    background-color: var(--background);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 18px;
+}
+
+/*typography*/
+h1{
+    color: var(--headings);
+    font-size: 36px;
+}
+
+h2{
+    color: #EDB458;
+    font-size: 24px;
+}
+
+h3{
+    color: var(--headings);
+}
+
+p{
+    color: var(--heading2);
+}
