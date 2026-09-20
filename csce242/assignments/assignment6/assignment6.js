@@ -5,7 +5,7 @@ document.getElementById("days-missed").onkeyup = (e) => {
 
     const gLoss = document.getElementById("grade-loss");
     const gradeLossPerClass =  7/25;
-    const perGradeLoss = gradeLossPerClass*numDays
+    const perGradeLoss = (gradeLossPerClass*numDays).toFixed(2);
 
     gLoss.innerHTML = "You will lose " + perGradeLoss + "% for skipping " + numDays + " days.";
     
@@ -47,3 +47,14 @@ else if(amtLeft <= 60){
 else{
     msg.innerHTML = "You just started!";
 }
+
+//to hide the exersize not shown and make the selected appear
+document.getElementById("exercise1-link").onclick = () => {
+    document.getElementById("exercise1").classList.remove("hidden");
+    document.getElementById("exercise2").classList.add("hidden");
+};
+
+document.getElementById("exercise2-link").onclick = () => {
+    document.getElementById("exercise2").classList.remove("hidden");
+    document.getElementById("exercise1").classList.add("hidden");
+};

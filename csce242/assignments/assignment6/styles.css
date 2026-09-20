@@ -20,6 +20,10 @@ body{
     padding: 18px;
 }
 
+.hidden{
+    display: none;
+}
+
 /*typography*/
 h1{
     color: var(--headings);
@@ -37,4 +41,40 @@ h3{
 
 p{
     color: var(--heading2);
+}
+
+/*nav*/
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li + li::before{
+    content: " | ";
+}
+
+nav li{
+    display: inline;
+    color: var(--headings);
+    cursor: pointer;
+}
+
+/* small screens*/
+@media only screen and (max-width: 600px){
+    #content {
+        width: 90%
+    }
+
+    #nav ul{
+        text-align: left;
+    }
+
+    #nav li {
+        display: block;
+        padding: 4px 0;
+    }
+
+    #nav li:not(:last-child)::after{
+        content: "";
+    }
 }
