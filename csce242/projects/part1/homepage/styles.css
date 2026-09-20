@@ -1,0 +1,9 @@
+:root{
+    --pinkbackground: #F1AAAC;
+
+}
+
+/*navigation*/
+#main-header{
+    color: var(--pinkbackground);
+}
