@@ -1,9 +1,237 @@
 :root{
-    --pinkbackground: #F1AAAC;
+    --lightpink: #eccdce;
+    --creme: #F7F3ED;
+    --garnet: #8B0000;
+}
 
+#content{
+    width: 100%;
+    margin:auto;
+}
+
+header{
+    background-color: var(--creme);
+    color: var(--garnet);
+    padding: 25px 8%;
+}
+
+header h1{
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
 }
 
 /*navigation*/
-#main-header{
-    color: var(--pinkbackground);
+nav{
+    float: right;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-flex;
+    margin-left: 25px;
+}
+
+nav a{
+    color: var(--garnet);
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    position: relative;
+}
+
+#logo {
+    position:absolute;
+    left: 20px;;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+/*hero*/
+#hero{
+    padding: 80px 9%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background: var(--lightpink);
+    min-height: 380px;
+    box-sizing: border-box;
+}
+
+.hero-text{
+    width: 65%;
+    text-align: left;
+}
+
+.hero-text h2{
+    font-size: 38px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    color: var(--garnet);
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.hero-text p{
+    font-size: 17px;
+    text-align: left;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    margin:0;
+}
+
+#palm-tree{
+    width: 20%;
+    max-width: 230px;
+    margin-right: 4%;
+    height: auto;
+}
+
+/*guides*/
+#guides{
+    background-image: url(images/stripes2.jpg);
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.columns{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.guide{
+    background-color: rgba(236, 205, 206, 0.4) ;
+    width: 45%;
+    min-height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow:  0 4px 10px rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.guide a{
+    width: 40%;
+    flex-shrink:0;
+}
+
+.guide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.guide-text{
+    flex: 1;
+    text-align: center;
+    padding:10px;
+}
+#guides h3{
+    font-size: 27px;
+    color: var(--creme);
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 15px 25px;
+}
+
+#guides h2{
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--creme);
+    font-family: 'Playfair Display', serif;
+}
+
+#guides p{
+    font-size: 17px;
+    color: var(--creme);
+    font-family: 'Lato', sans-serif;
+    line-height: 26px;
+    margin: 0 20px 0 25px;
+}
+
+/*about*/
+#about{
+    background-color: var(--garnet);
+    color: var(--creme);
+    padding: 80px 9%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    box-sizing: border-box;
+}
+
+.about-text{
+    width: 50%;
+}
+
+.about-label{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+#about h2{
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.15;
+    margin: 0 0 30px 0;
+}
+
+.about-text p{
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.about-image{
+    width:42%;
+    background: var(--creme);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.about-image img{
+    width: 100%;
+    display: block;
+}
+
+/*footer*/
+footer{
+    background: var(--creme);
+    color: var(--garnet);
+    padding: 60px 8%;
+    min-height: fit-content;
+}
+
+footer div{
+    display: inline-block;
+}
+
+footer h2{
+    margin-top: auto;
+    color: var(--garnet);
+    font-family: 'Playfair Display', serif;
+    color: var(--garnet);
+    font-size: 30px;
+}
+
+footer p{
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: var(--garnet);
 }
