@@ -235,3 +235,125 @@ footer p{
     font-family: 'Lato', sans-serif;
     color: var(--garnet);
 }
+
+/* Small Screens */
+@media only screen and (max-width: 768px) {
+
+    /* header */
+    header {
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px;
+    }
+
+
+    /* hero */
+    #hero {
+        display: block;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text p {
+        text-align: center;
+    }
+
+    #palm-tree {
+        width: 35%;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+
+    /* guides */
+    #guides {
+        padding: 50px 6%;
+    }
+
+    #guides h2 {
+        font-size: 32px;
+    }
+
+    #guides > p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .columns {
+        display: block;
+    }
+
+    .guide {
+        width: 100%;
+        margin-top: 25px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        box-sizing: border-box;
+    }
+
+    .guide a {
+        width: 65%;
+    }
+
+    .guide img {
+        width: 100%;
+        height: auto;
+    }
+
+    .guide-text {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    #guides h3 {
+        font-size: 26px;
+        margin: 0 0 12px 0;
+    }
+
+    #guides p {
+        font-size: 16px;
+        line-height: 25px;
+        margin: 0;
+    }
+
+
+    /* about */
+    #about {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 8%;
+        gap: 30px;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    #about h2 {
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+
+}
