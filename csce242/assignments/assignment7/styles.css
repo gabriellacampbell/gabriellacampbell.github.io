@@ -1,0 +1,79 @@
+/*main*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    margin: auto;
+}
+
+#content{
+    width:fit-content;
+    margin: auto;
+}
+
+/*road content*/
+#road{
+    background-color: black;
+    border-top: 50px solid green;
+    border-bottom: 50px solid green;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 250px;
+    position: relative;
+}
+
+#road::after {
+    content: "";
+    border-top: 10px dashed yellow;
+    top: 117px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+
+/*car content*/
+#cars{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.car{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.car .roof{
+    position: absolute;
+    top: -18px;
+    left: 13px;
+    width: 35px;
+    height: 18px;
+    background-color: rgb(127, 255, 212, .4);
+    border-radius: 8px 8px 0 0;
+}
+
+.car .wheel {
+    position: absolute;
+    bottom: -10px;
+    width: 21px;
+    height: 21px;
+    background-color: darkgrey;
+    border-radius: 50%;
+}
+
+.car .wheel-left{
+    left: 2px;
+}
+
+.car .wheel-right{
+    right: 2px;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+}
