@@ -175,3 +175,49 @@ footer p{
     font-family: 'Lato', sans-serif;
     color: var(--pink);
 }
+
+/* Small Screens */
+@media only screen and (max-width: 768px) {
+
+    /* header */
+    header{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav{
+        float: none;
+    }
+
+    nav li{
+        display: block;
+        margin: 10px;
+    }
+
+
+    /* hero */
+    #hero{
+        display: block;
+        text-align: center;
+        height: auto;
+    }
+
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-text p{
+        text-align: center;
+    }
+
+    .columns{
+        display: block;
+    }
+
+    footer{
+        height: auto;
+    }
+
+}

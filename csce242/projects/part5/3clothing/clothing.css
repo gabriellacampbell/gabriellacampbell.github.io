@@ -1,7 +1,9 @@
-/*main*/
-:root {
-    --background: white;
-    --nav: #567291;
+:root{
+    --pink: #D88C9A;
+    --lightpink: #F4D7D9;
+    --green: #A7B59F;
+    --background: #FFF9F5;
+    --text: #3E2F2B;
 }
 
 #content{
@@ -10,7 +12,7 @@
 }
 
 header{
-    background-color: var(--nav);
+    background-color: var(--pink);
     color: var(--background);
     padding: 25px 8%;
 }
@@ -53,38 +55,32 @@ nav a{
     padding: 0;
     display: block;
     background-color: var(--background);
-}
-
-#hero-img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  display: block;
+    height: 250px;
 }
 
 .hero-text{
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .hero-text h2{
     font-size: 38px;
     margin-bottom: 20px;
-    margin-top: 10px;
-    color: var(--nav);
+    margin-top: 0px;
+    color: var(--green);
     font-family: 'Playfair Display', serif;
-    padding-top: 30px;
+    padding-top: 70px;
     
 }
 
 .hero-text p{
     font-size: 17px;
-    text-align: left;
-    color: var(--nav);
+    text-align: center;
+    color: var(--green);
     font-family: 'Lato', sans-serif;
     line-height: 30px;
     margin:0;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .hero-text h2, .hero-text p{
@@ -92,63 +88,65 @@ nav a{
     margin-right: 5%;
 }
 
-/*activites*/
-#activities-list{
-    background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), /* <--i googled how to make the image less intense*/
-        url(images/tileBG.jpg);
-    padding: 30px 9%;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    min-height: fit-content;
-    box-sizing: border-box;
+/*inspo*/
+.slideshows{
+    padding: 0;
+    display: block;
+    background-color: var(--lightpink);
+    height: 250px;
 }
-
 .columns{
-    display: grid;
-    gap: 20px;
-    padding: 10px;
-    height: 100%;
-    width: 100%;
-    margin: 30px;
-    grid-template-columns: 33% 33% 33%; /* <--i googled how to do a 3x3 column*/
+    display: block;
 }
 
-.activities{
-    border: 2px solid var(--background);
-    padding: 5px;
-    text-align: center;
-    background-color: var(--nav);
-    height: 100%;
-    width: 320px;
-}
-
-.activities img{
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.activity-text h3{
-    font-size: 20px;
+.inspo h3{
+    font-size: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: var(--background);
     font-family: 'Playfair Display', serif;
+    text-align: left;
+    color: var(--text);
 }
 
-.activity-text p{
-    font-size: 15px;
-    text-align: center;
+/*info*/
+#info{
+    background-color: var(--lightpink);
+    padding: 80px ;
+    padding-bottom: 40px;
+    display: flex;
+    gap:20px;
+}
+
+.info-guide{
+    background-color: var(--pink);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.info-guide h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    color: var(--background);
+}
+
+.info-guide li{
+    font-size: 20px;
+    text-align: left;
     color: var(--background);
     font-family: 'Lato', sans-serif;
     margin:5px;
     line-height: 20px;
+    margin-bottom: 20px;
 }
+
 /*footer*/
 footer{
-    background: var(--nav);
+    background: var(--pink);
     color: var(--background);
     padding: 60px 8%;
     padding-top: 5px;
@@ -163,7 +161,6 @@ footer h2{
     margin-top: auto;
     color: var(--background);
     font-family: 'Playfair Display', serif;
-    color: var(--background);
     font-size: 30px;
 }
 
@@ -219,11 +216,11 @@ footer p{
     }
 
 
-    #resources{
+    #info{
         display: block;
     }
 
-    .living-guide{
+    .info-guide{
         width: auto;
     }
 
@@ -235,16 +232,6 @@ footer p{
     grid-template-columns: 100%;
     margin: 0;
     padding: 10px 0;
-    }
-
-    .activities{
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .activities img{
-        width: 100%;
-        height: auto;
     }
 
     footer{

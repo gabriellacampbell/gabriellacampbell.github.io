@@ -232,6 +232,14 @@ footer p{
 
     nav{
         float: none;
+        display: block;
+        width: 100%;
+    }
+
+    nav ul{
+        display: block;
+        margin: 0;
+        padding: 0;
     }
 
     nav li{
@@ -239,10 +247,15 @@ footer p{
         margin: 10px;
     }
 
+    nav a{
+        display: block;
+    }
+
     /* hero */
     #hero{
         display: block;
         text-align: center;
+        height: auto;
     }
 
     .hero-text{
@@ -261,4 +274,34 @@ footer p{
     .living-guide{
         width: auto;
     }
+
+    #content{
+       display: block;
+    }
+
+    .columns{
+    grid-template-columns: 100%;
+    margin: 0;
+    padding: 10px 0;
+    }
+
+    .apartment-info{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .apartment-info img{
+        width: 100%;
+        height: auto;
+    }
+    
+    #apartments{
+        width: 100%;
+        display: flex;
+    }
+
+    footer{
+        height: auto;
+    }
+
 }

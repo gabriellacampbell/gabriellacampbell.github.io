@@ -369,4 +369,8 @@ footer p{
         width: 100%;
     }
 
+    footer{
+        height: auto;
+    }
+
 }
