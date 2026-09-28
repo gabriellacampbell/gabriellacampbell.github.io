@@ -1,0 +1,264 @@
+:root{
+    --garnet: #73000A;
+    --black: #111111;
+    --white: white;
+    --accent: #D4AF68;
+    --grey: rgb(152, 150, 148);
+}
+
+#content{
+    width: 100%;
+    margin:auto;
+}
+
+header{
+    background-color: var(--garnet);
+    color: var(--white);
+    padding: 25px 8%;
+}
+
+header h1{
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+
+body{
+    margin: 0;
+}
+
+/*navigation*/
+nav{
+    float: right;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-flex;
+    margin-left: 25px;
+    margin: 25px;
+}
+
+nav a{
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    position: relative;
+}
+
+/*hero*/
+#hero{
+    padding: 0;
+    display: block;
+    background-color: var(--white);
+    height: 250px;
+}
+
+.hero-text{
+    width: 100%;
+    text-align: center;
+}
+
+.hero-text h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: var(--black);
+    font-family: 'Playfair Display', serif;
+    padding-top: 70px;
+    
+}
+
+.hero-text p{
+    font-size: 17px;
+    text-align: center;
+    color: var(--garnet);
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    margin:0;
+    padding-bottom: 0px;
+}
+
+.hero-text h2, .hero-text p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*map*/
+
+#map{
+    display:flex;
+    justify-content: center;
+    padding: 25px 8%;
+    background-color: var(--white);
+}
+
+#map-img{
+    width: 90%;
+    height: auto;
+    display: block;
+    border: 10px solid var(--accent);
+}
+
+/*aprtments*/
+#apartments{
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), /* <--i googled how to make the image less intense*/
+        url(images/housingbackground.avif);
+    padding: 30px 9%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    min-height: fit-content;
+    box-sizing: border-box;
+}
+
+.columns{
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    margin: 30px;
+    grid-template-columns: 33% 33% 33%; /* <--i googled how to do a 3x3 column*/
+}
+
+.apartment-info{
+    border: 0px solid var(--accent);
+    padding: 5px;
+    text-align: center;
+    background-color: var(--garnet);
+    height: 100%;
+    width: 320px;
+}
+
+.apartment-info img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.apartment-text h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: var(--white);
+    font-family: 'Playfair Display', serif;
+}
+
+.apartment-text p{
+    font-size: 15px;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Lato', sans-serif;
+    margin:5px;
+    line-height: 20px;
+}
+
+/*other info & resources*/
+#resources{
+    background-color: var(--grey);
+    padding: 80px ;
+    padding-bottom: 40px;
+    display: flex;
+    gap:20px;
+}
+
+.living-guide{
+    background-color: var(--garnet);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.living-guide h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    color: var(--white);
+}
+
+.living-guide li{
+    font-size: 20px;
+    text-align: left;
+    color: var(--white);
+    font-family: 'Lato', sans-serif;
+    margin:5px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/*footer*/
+footer{
+    background: var(--white);
+    color: var(--garnet);
+    padding: 60px 8%;
+    padding-top: 5px;
+    height: 100px;
+}
+
+footer div{
+    display: inline-block;
+}
+
+footer h2{
+    margin-top: auto;
+    color: var(--garnet);
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+footer p{
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: var(--garnet);
+}
+
+@media only screen and (max-width: 768px) {
+    /* header */
+    header{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav{
+        float: none;
+    }
+
+    nav li{
+        display: block;
+        margin: 10px;
+    }
+
+    /* hero */
+    #hero{
+        display: block;
+        text-align: center;
+    }
+
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-text p{
+        text-align: center;
+    }
+
+
+    #resources{
+        display: block;
+    }
+
+    .living-guide{
+        width: auto;
+    }
+}
