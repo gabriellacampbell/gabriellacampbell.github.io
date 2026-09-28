@@ -39,6 +39,18 @@ p{
     color: var(--heading2);
 }
 
+/*map*/
+.destination-link{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+iframe{
+    width: 500px;
+    height: 500px;
+}
+
 @media only screen and (max-width: 600px){
     #content {
         width: 90%
