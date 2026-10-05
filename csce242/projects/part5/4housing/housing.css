@@ -197,8 +197,8 @@ nav a{
 
 /*footer*/
 footer{
-    background: var(--white);
-    color: var(--garnet);
+    background: var(--garnet);
+    color: var(--white);
     padding: 60px 8%;
     padding-top: 5px;
     height: 100px;
@@ -210,7 +210,7 @@ footer div{
 
 footer h2{
     margin-top: auto;
-    color: var(--garnet);
+    color: var(--white);
     font-family: 'Playfair Display', serif;
     font-size: 30px;
 }
@@ -218,7 +218,7 @@ footer h2{
 footer p{
     font-size: 17px;
     font-family: 'Lato', sans-serif;
-    color: var(--garnet);
+    color: var(--white);
 }
 
 @media only screen and (max-width: 768px) {

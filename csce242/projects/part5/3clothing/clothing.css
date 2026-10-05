@@ -1,9 +1,8 @@
 :root{
-    --pink: #D88C9A;
-    --lightpink: #F4D7D9;
-    --green: #A7B59F;
-    --background: #FFF9F5;
-    --text: #3E2F2B;
+    --pink: #8B0000;
+    --lightpink: #eccdce;
+    --background: #F7F3ED;
+    --text: #000000;
 }
 
 #content{
