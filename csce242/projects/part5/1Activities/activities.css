@@ -48,6 +48,9 @@ nav a{
     font-size: 17px;
     position: relative;
 }
+#nav-toggle{
+    display: none;
+}
 
 /*hero*/
 #hero{
@@ -202,6 +205,21 @@ footer p{
 
     nav a{
         display: block;
+    }
+
+    #nav-toggle{
+        display: block;
+        background: none;
+        border: 2px solid var(--creme);
+        color: var(--creme);
+        font-size: 18px;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #main-nav.nav-hidden{
+        display: none;
     }
 
     /* hero */

@@ -52,6 +52,10 @@ nav a{
     height: 100px;
 }
 
+#nav-toggle{
+    display: none;
+}
+
 /*hero*/
 #hero{
     padding: 90px 9%;
@@ -266,6 +270,20 @@ footer p{
         margin: 10px;
     }
 
+    #nav-toggle{
+        display: block;
+        background: none;
+        border: 2px solid var(--background);
+        color: var(--background);
+        font-size: 18px;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #main-nav.nav-hidden{
+        display: none;
+    }
 
     /* hero */
     #hero {

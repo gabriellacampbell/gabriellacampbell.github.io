@@ -1,5 +1,5 @@
 :root{
-    --garnet: #73000A;
+    --garnet: #8B0000;
     --black: #111111;
     --white: white;
     --accent: #D4AF68;
@@ -50,6 +50,10 @@ nav a{
     position: relative;
 }
 
+#nav-toggle{
+    display: none;
+}
+
 /*hero*/
 #hero{
     padding: 0;
@@ -97,11 +101,12 @@ nav a{
     background-color: var(--white);
 }
 
-#map-img{
+#map-frame{
     width: 90%;
-    height: auto;
+    height: 500px;
     display: block;
     border: 10px solid var(--accent);
+    box-sizing: border-box;
 }
 
 /*aprtments*/
@@ -251,6 +256,21 @@ footer p{
         display: block;
     }
 
+    #nav-toggle{
+        display: block;
+        background: none;
+        border: 2px solid var(--white);
+        color: var(--white);
+        font-size: 18px;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #main-nav.nav-hidden{
+        display: none;
+    }
+
     /* hero */
     #hero{
         display: block;
@@ -277,6 +297,11 @@ footer p{
 
     #content{
        display: block;
+    }
+
+    #map-frame{
+        width: 100%;
+        height: 350px;
     }
 
     .columns{
