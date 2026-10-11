@@ -1,81 +1,110 @@
 /* Structural */ 
-body {
-    font-family: Georgia, Helvetica, sans-serif;
-    background-color: #e9aeae;
-}
-#content {
-    background-color: rgb(191, 182, 138,);
-    width: 80%;
-    margin:auto;
-    padding: 2%;
-}
-.columns {
-    display: flex;
-    gap: 20px;
-    flex-wrap:wrap;
-    justify-content: center;
+:root {
+    --primary-color: #768E78;
+    --secondary-color: #E79897;
+    --heading-color: #b46f6e;
+    --background-color: #f0e6cf;
+    --text-color: #f0e6cf;
 }
 
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: var(--background-color);
+}
+
+#content {
+    background-color: var(--background-color);
+    width: 80%;
+    margin:auto;
+    padding: 20px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+}
+
+/* Typography */
+h1{
+    color: var(--heading-color);
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    color: var(--secondary-color);
+    font-size: 17px;
+    text-align: center;
+}
+
+h3{
+    color: var(--heading-color);
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    color: var(--secondary-color);
+    size: 15px;
+    text-align: center;
+}
+
+/* Assignment cards */
 .assignment{
     display:flex;
     flex-direction: column;
-    background-color: #7B8C56;
+    background-color: var(--primary-color);
     border-radius: 4px;
     padding: 10px;
     flex:1;
-}
-.assignment img:hover{
-    border: 5px solid white;
+    width: 30%;
+    min-width: 300px;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
 }
 
 .assignment a:hover{
     color: #80856e;
 }
 
-/* Typography */
-h1{
-    color: #A65D6A;
-    font-size: 30px;
-    text-align: center;
-}
-h2{
-    color: #A65D6A;
-    font-size: 17px;
-    text-align: center;
-}
-h3{
-    color: #A65D6A;
-    font-size: 20px;
-    text-align: center;
-}
-p{
-    color: #f8f4f4;
-    size: 15px;
-    text-align: center;
-}
-footer{
-    color: #c9a7a7;
-    size: 15px;
-    text-align: center;
-}
 .assignment p {
     text-align: center;
     margin: 15px;
-    color: #f5cdc7;
+    color: var(--text-color);
 }
+
+.assignment h3 {
+    text-align: center;
+    margin: 15px;
+    color: var(--text-color);
+}
+
 /*images*/
 .assignment img{
     width: auto;
+    max-width: 100%;
     height: 150px;
     object-fit: cover;
     display: block;
-    border: 5px solid #7B8C56;
+    margin: auto;
+    border: 5px solid var(--primary-color);
 }
+
+.assignment img:hover{
+    border: 3.5px solid var(--text-color);
+}
+
+/*footer*/
+footer{
+    color: var(--secondary-color);
+    size: 15px;
+    text-align: center;
+}
+
 
 /* 600 px or larger */
 @media (max-width: 768px) {
