@@ -91,25 +91,16 @@ nav a{
 }
 
 /*inspo*/
-#slideshows{
-    padding: 20px 8%;
-    background-color: var(--lightpink);
-}
-
-.slideshow{
-    position: relative;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-
-.slides img{
-    width: 100%;
-    max-height: 600px;
-    margin: 0 auto 30px auto;
-}
 
 .columns{
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: start;
+}
+
+.inspo{
+    min-width: 0;
 }
 
 .inspo h3{
@@ -173,9 +164,12 @@ nav a{
 }
 
 .slides img{
+    display: block;
     width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
 .hidden{
@@ -208,6 +202,18 @@ nav a{
 }
 .slides img.hidden{
     display: none;
+}
+
+#slideshows{
+    padding: 20px 8%;
+    background-color: var(--lightpink);
+}
+
+
+.slides img{
+    width: 100%;
+    max-height: 600px;
+    margin: 0 auto 30px auto;
 }
 
 /*footer*/
