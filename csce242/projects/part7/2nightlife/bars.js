@@ -1,4 +1,4 @@
-const base_url = "https://gabriellacampbell.github.io/json/";
+const base_url = "https://gabriellacampbell.github.io/csce242/json/";
 
 const getBars =async()=>{
     const response =await fetch(base_url+"bars-data.json");

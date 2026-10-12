@@ -97,13 +97,13 @@ nav a{
 #map{
     display:flex;
     justify-content: center;
-    padding: 25px 8%;
-    background-color: var(--lightpink);
+    padding: 10px 8%;
+    background-color: var(--creme);
 }
 
 #map-frame{
     width: 100%;
-    height: 500px;
+    height: 350px;
     display: block;
     border: 10px solid var(--lightpink);
     box-sizing: border-box;
@@ -180,6 +180,59 @@ footer p{
     color: var(--creme);
 }
 
+/*json*/
+#nightlife{
+    background-color: var(--lightpink);
+    padding: 65px 8%;
+    text-align: center;
+}
+
+#nightlife h2{
+    color: var(--garnet);
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin: 0 0 35px 0;
+}
+
+#bar-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}
+
+.bar{
+    background-color: var(--creme);
+    width: 45%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+    text-align: left;
+}
+
+.bar img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+
+.bar-info{
+    padding: 22px;
+}
+
+.bar h3{
+    color: var(--garnet);
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin: 0 0 12px 0;
+}
+
+.bar p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 8px 0;
+}
 /* Small Screens */
 @media only screen and (max-width: 768px) {
 
